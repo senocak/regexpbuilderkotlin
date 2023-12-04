@@ -1,3 +1,6 @@
+group = "com.github.senocak"
+version = "0.1"
+
 plugins {
     alias(libs.plugins.jvm)
 
@@ -27,6 +30,14 @@ tasks.named<Test>(name = "test") {
     useJUnitPlatform()
 }
 
-repositories {
-    mavenCentral()
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.github.senocak"
+            artifactId = "regexb"
+            version = "0.1"
+
+            from(components["java"])
+        }
+    }
 }
