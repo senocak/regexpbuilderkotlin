@@ -28,7 +28,7 @@
 <dependency>
     <groupId>com.github.senocak</groupId>
     <artifactId>regexpbuilderkotlin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
