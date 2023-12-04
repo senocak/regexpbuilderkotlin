@@ -17,7 +17,19 @@
 ## Installation
 
 ```bash
-composer req senocak/regexpbuilderkotlin
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```bash
+<dependency>
+    <groupId>com.github.senocak</groupId>
+    <artifactId>regexpbuilderkotlin</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 
 Or download [the appropriate release](https://github.com/senocak/regexpbuilderkotlin/releases/latest)
